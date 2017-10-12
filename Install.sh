@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "安裝Deluge-$1 ..."
+echo ""
 sleep 1
 
 apt-get update
@@ -10,6 +11,7 @@ tar xf deluge-$1.tar.gz
 cd deluge-$1
 python setup.py build
 python setup.py install --install-layout=deb
+rm $0
 cd ~
 deluged
 deluge-web -f

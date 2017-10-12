@@ -1,6 +1,4 @@
-# Deluge-Install
-
-Deluge偽一鍵安裝腳本
+可自定Deluge版本的偽一鍵安裝腳本
 適用於：Ubuntu、Debian
 
 使用方法：
